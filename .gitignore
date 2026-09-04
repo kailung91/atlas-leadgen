@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+*.egg-info/
+.env
+.env.*
+proxies*.txt
+
+# ⚠️ ПЕРСОНАЛЬНІ ДАНІ. Тут лежать зібрані бази контактів (десятки тисяч адрес
+# шкіл, ЗВО, переможців Prozorro). Джерела публічні, але зведений файл — ні:
+# у git він не потрапляє за жодних обставин, навіть у приватному репозиторії.
+output/
+data/raw/
+temp_data/
+*.xlsx
+*.csv
+*.jsonl
+*.db
+*.sqlite3
+dk021_full.txt
+dk021_matched_analysis.txt
+f451914n23.doc
+*.log
+
+# ⚠️ Дампи зіскрапаних сторінок ua-region — це сирі HTML із контактами компаній.
+# Артефакти зневадження, не джерело.
+*_debug.html
+*.lock
